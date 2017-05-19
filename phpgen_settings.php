@@ -18,7 +18,7 @@ SystemUtils::SetTimeZoneIfNeed('America/New_York');
 function GetGlobalConnectionOptions()
 {
     return array(
-  'server' => 'GISPubDb',
+  'server' => '',
   'username' => '',
   'password' => '',
   'database' => ''
