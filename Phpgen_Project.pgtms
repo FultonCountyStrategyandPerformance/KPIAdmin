@@ -1,0 +1,1431 @@
+<Project productVersion="14.10.0.12" localizationFileName="C:\Program Files (x86)\SQL Maestro Group\MS SQL PHP Generator\lang.en.php" phpDriver="0" outputPath="C:\Users\PeterMoore\Documents\edtables" copySystemFiles="true" outputFilesExtension="php" colorSchemeName="Default">
+  <ConnectionOptions host="GISPubDb" port="1433" login="GISWebEditor" password="__'K[_WZ_?SQ[/?J" database="edtables" client_encoding="" is_windows_auth="false" connect_timeout="60" provider_type="SQLOLEDB">
+    <ssh_secure secure="false" port="22" authentication_mode="0"/>
+    <http_tunnel tunneling="false" url="">
+      <http_proxy_server use_proxy="false" port="8080"/>
+      <http_authentication/>
+    </http_tunnel>
+  </ConnectionOptions>
+  <ScriptConnectionOptions host="GISPubDb" port="1433" login="GISWebEditor" password="__'K[_WZ_?SQ[/?J" database="edtables" client_encoding="" is_windows_auth="false" connect_timeout="60" provider_type="SQLOLEDB">
+    <ssh_secure secure="false" port="22" authentication_mode="0"/>
+    <http_tunnel tunneling="false" url="">
+      <http_proxy_server use_proxy="false" port="8080"/>
+      <http_authentication/>
+    </http_tunnel>
+  </ScriptConnectionOptions>
+  <Queries/>
+  <FieldContainers/>
+  <Presentation disableMagicQuotesRuntime="false" showEnvironmentVariables="false" showExecutedQueries="false" showPHPErrorsAndWarnings="false">
+    <Pages>
+      <Page type="table" tableName="dbo.PerformanceManagement_ProgramKPIs" fileName="dbo.PerformanceManagement_ProgramKPIs" caption="Dbo.PerformanceManagement ProgramKPIs" shortCaption="Dbo.PerformanceManagement ProgramKPIs" groupName="Default" addSeparator="false" horizontalFilterCondition="" openAdvancedSearchAtFirst="false" recordsPerPage="1000" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" contentEncoding="UTF-8" exportToExcelAvailable="false" exportToWordAvailable="false" exportToXmlAvailable="false" exportToCsvAvailable="false" exportToPdfAvailable="false" printerFriendlyAvailable="false" advancedSearchAvailable="false" filterRowAvailable="false" visualEffectsEnabled="false" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <Columns>
+          <ViewColumns>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureName" caption="MeasureName" visible="true" totalFunction="0">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Program" caption="Program" visible="true" totalFunction="0">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="PriorityArea" caption="PriorityArea" visible="true" totalFunction="0">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="Active" caption="Active" visible="true" totalFunction="0">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true" totalFunction="0">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Interval" caption="Interval" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Description" caption="Description" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Collection" caption="Collection" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Calculation" caption="Calculation" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="DeptKPI" caption="DeptKPI" visible="true" totalFunction="0">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="ProgramNumber" caption="ProgramNumber" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Organization" caption="Organization" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Fund" caption="Fund" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureNumber" caption="MeasureNumber" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureType" caption="MeasureType" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true" totalFunction="0">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="MeasureUnit" caption="MeasureUnit" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="IncludeQ0" caption="IncludeQ0" visible="true" totalFunction="0">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="MeasureLevel" caption="MeasureLevel" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+          </ViewColumns>
+          <SingleRecordViewColumns>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureName" caption="MeasureName" visible="true">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Program" caption="Program" visible="true">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="PriorityArea" caption="PriorityArea" visible="true">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="Active" caption="Active" visible="true">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Interval" caption="Interval" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Description" caption="Description" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Collection" caption="Collection" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Calculation" caption="Calculation" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="DeptKPI" caption="DeptKPI" visible="true">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="ProgramNumber" caption="ProgramNumber" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Organization" caption="Organization" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Fund" caption="Fund" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureNumber" caption="MeasureNumber" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureType" caption="MeasureType" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="MeasureUnit" caption="MeasureUnit" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="IncludeQ0" caption="IncludeQ0" visible="true">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="MeasureLevel" caption="MeasureLevel" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </SingleRecordViewColumns>
+          <EditColumns>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="false">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureName" caption="MeasureName" visible="true" canSetNull="true">
+              <EditProperties type="textArea" columnCount="50" rowCount="8" placeholder=""/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Program" caption="Program" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="PriorityArea" caption="PriorityArea" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Active" caption="Active" visible="true" canSetNull="true">
+              <EditProperties type="checkBox"/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true" canSetNull="true">
+              <EditProperties type="dateTime" showsTime="true" dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Interval" caption="Interval" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="30" maxLength="30" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Description" caption="Description" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Collection" caption="Collection" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Calculation" caption="Calculation" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="DeptKPI" caption="DeptKPI" visible="true" canSetNull="true">
+              <EditProperties type="checkBox"/>
+            </Column>
+            <Column fieldName="ProgramNumber" caption="ProgramNumber" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="20" maxLength="20" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Organization" caption="Organization" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="12" maxLength="12" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Fund" caption="Fund" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="10" maxLength="10" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureNumber" caption="MeasureNumber" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="24" maxLength="24" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureType" caption="MeasureType" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="30" maxLength="30" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureUnit" caption="MeasureUnit" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="24" maxLength="24" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="IncludeQ0" caption="IncludeQ0" visible="true" canSetNull="true">
+              <EditProperties type="checkBox"/>
+            </Column>
+            <Column fieldName="MeasureLevel" caption="MeasureLevel" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </EditColumns>
+          <InsertColumns>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="false" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureName" caption="MeasureName" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textArea" columnCount="50" rowCount="8" placeholder=""/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Program" caption="Program" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="PriorityArea" caption="PriorityArea" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Active" caption="Active" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="checkBox"/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="dateTime" showsTime="true" dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Interval" caption="Interval" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="30" maxLength="30" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Description" caption="Description" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Collection" caption="Collection" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Calculation" caption="Calculation" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="DeptKPI" caption="DeptKPI" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="checkBox"/>
+            </Column>
+            <Column fieldName="ProgramNumber" caption="ProgramNumber" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="20" maxLength="20" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Organization" caption="Organization" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="12" maxLength="12" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Fund" caption="Fund" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="10" maxLength="10" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureNumber" caption="MeasureNumber" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="24" maxLength="24" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureType" caption="MeasureType" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="30" maxLength="30" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureUnit" caption="MeasureUnit" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="24" maxLength="24" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="IncludeQ0" caption="IncludeQ0" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="checkBox"/>
+            </Column>
+            <Column fieldName="MeasureLevel" caption="MeasureLevel" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </InsertColumns>
+          <SimpleSearchColumns>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true"/>
+            <Column fieldName="MeasureName" caption="MeasureName" visible="true"/>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true"/>
+            <Column fieldName="Program" caption="Program" visible="true"/>
+            <Column fieldName="PriorityArea" caption="PriorityArea" visible="true"/>
+            <Column fieldName="Active" caption="Active" visible="true"/>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true"/>
+            <Column fieldName="Editor" caption="Editor" visible="true"/>
+            <Column fieldName="Interval" caption="Interval" visible="true"/>
+            <Column fieldName="Description" caption="Description" visible="true"/>
+            <Column fieldName="Collection" caption="Collection" visible="true"/>
+            <Column fieldName="Calculation" caption="Calculation" visible="true"/>
+            <Column fieldName="DeptKPI" caption="DeptKPI" visible="true"/>
+            <Column fieldName="ProgramNumber" caption="ProgramNumber" visible="true"/>
+            <Column fieldName="Organization" caption="Organization" visible="true"/>
+            <Column fieldName="Fund" caption="Fund" visible="true"/>
+            <Column fieldName="MeasureNumber" caption="MeasureNumber" visible="true"/>
+            <Column fieldName="MeasureType" caption="MeasureType" visible="true"/>
+            <Column fieldName="Department" caption="Department" visible="true"/>
+            <Column fieldName="MeasureUnit" caption="MeasureUnit" visible="true"/>
+            <Column fieldName="IncludeQ0" caption="IncludeQ0" visible="true"/>
+            <Column fieldName="MeasureLevel" caption="MeasureLevel" visible="true"/>
+          </SimpleSearchColumns>
+          <AdvancedSearchColumns>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" useComboBox="false"/>
+            <Column fieldName="MeasureName" caption="MeasureName" visible="true" useComboBox="false"/>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" useComboBox="false"/>
+            <Column fieldName="Program" caption="Program" visible="true" useComboBox="false"/>
+            <Column fieldName="PriorityArea" caption="PriorityArea" visible="true" useComboBox="false"/>
+            <Column fieldName="Active" caption="Active" visible="true" useComboBox="false"/>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true" useComboBox="false"/>
+            <Column fieldName="Editor" caption="Editor" visible="true" useComboBox="false"/>
+            <Column fieldName="Interval" caption="Interval" visible="true" useComboBox="false"/>
+            <Column fieldName="Description" caption="Description" visible="true" useComboBox="false"/>
+            <Column fieldName="Collection" caption="Collection" visible="true" useComboBox="false"/>
+            <Column fieldName="Calculation" caption="Calculation" visible="true" useComboBox="false"/>
+            <Column fieldName="DeptKPI" caption="DeptKPI" visible="true" useComboBox="false"/>
+            <Column fieldName="ProgramNumber" caption="ProgramNumber" visible="true" useComboBox="false"/>
+            <Column fieldName="Organization" caption="Organization" visible="true" useComboBox="false"/>
+            <Column fieldName="Fund" caption="Fund" visible="true" useComboBox="false"/>
+            <Column fieldName="MeasureNumber" caption="MeasureNumber" visible="true" useComboBox="false"/>
+            <Column fieldName="MeasureType" caption="MeasureType" visible="true" useComboBox="false"/>
+            <Column fieldName="Department" caption="Department" visible="true" useComboBox="false"/>
+            <Column fieldName="MeasureUnit" caption="MeasureUnit" visible="true" useComboBox="false"/>
+            <Column fieldName="IncludeQ0" caption="IncludeQ0" visible="true" useComboBox="false"/>
+            <Column fieldName="MeasureLevel" caption="MeasureLevel" visible="true" useComboBox="false"/>
+          </AdvancedSearchColumns>
+          <ExportColumns>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureName" caption="MeasureName" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Program" caption="Program" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="PriorityArea" caption="PriorityArea" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Active" caption="Active" visible="true">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Interval" caption="Interval" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Description" caption="Description" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Collection" caption="Collection" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Calculation" caption="Calculation" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="DeptKPI" caption="DeptKPI" visible="true">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="ProgramNumber" caption="ProgramNumber" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Organization" caption="Organization" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Fund" caption="Fund" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureNumber" caption="MeasureNumber" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureType" caption="MeasureType" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureUnit" caption="MeasureUnit" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="IncludeQ0" caption="IncludeQ0" visible="true">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="MeasureLevel" caption="MeasureLevel" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </ExportColumns>
+          <PrintColumns>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureName" caption="MeasureName" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Program" caption="Program" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="PriorityArea" caption="PriorityArea" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Active" caption="Active" visible="true">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Interval" caption="Interval" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Description" caption="Description" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Collection" caption="Collection" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Calculation" caption="Calculation" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="DeptKPI" caption="DeptKPI" visible="true">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="ProgramNumber" caption="ProgramNumber" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Organization" caption="Organization" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Fund" caption="Fund" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureNumber" caption="MeasureNumber" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureType" caption="MeasureType" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureUnit" caption="MeasureUnit" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="IncludeQ0" caption="IncludeQ0" visible="true">
+              <ViewProperties type="checkBox" displayType="image" trueValue="images/checked.png" falseValue=""/>
+            </Column>
+            <Column fieldName="MeasureLevel" caption="MeasureLevel" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </PrintColumns>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+      <Page type="table" tableName="dbo.PerformanceManagement_ProgramTargets" fileName="dbo.PerformanceManagement_ProgramTargets" caption="Dbo.PerformanceManagement ProgramTargets" shortCaption="Dbo.PerformanceManagement ProgramTargets" groupName="Default" addSeparator="false" horizontalFilterCondition="" openAdvancedSearchAtFirst="false" recordsPerPage="1000" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" contentEncoding="UTF-8" exportToExcelAvailable="false" exportToWordAvailable="false" exportToXmlAvailable="false" exportToCsvAvailable="false" exportToPdfAvailable="false" printerFriendlyAvailable="false" advancedSearchAvailable="false" filterRowAvailable="false" visualEffectsEnabled="false" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <Columns>
+          <ViewColumns>
+            <Column fieldName="TargetID" caption="TargetID" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Target" caption="Target" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+          </ViewColumns>
+          <SingleRecordViewColumns>
+            <Column fieldName="TargetID" caption="TargetID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Target" caption="Target" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </SingleRecordViewColumns>
+          <EditColumns>
+            <Column fieldName="TargetID" caption="TargetID" visible="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="4" maxLength="4" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Target" caption="Target" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="10" maxLength="10" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </EditColumns>
+          <InsertColumns>
+            <Column fieldName="TargetID" caption="TargetID" visible="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="4" maxLength="4" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Target" caption="Target" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="10" maxLength="10" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </InsertColumns>
+          <SimpleSearchColumns>
+            <Column fieldName="TargetID" caption="TargetID" visible="true"/>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true"/>
+            <Column fieldName="Year" caption="Year" visible="true"/>
+            <Column fieldName="Target" caption="Target" visible="true"/>
+          </SimpleSearchColumns>
+          <AdvancedSearchColumns>
+            <Column fieldName="TargetID" caption="TargetID" visible="true" useComboBox="false"/>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" useComboBox="false"/>
+            <Column fieldName="Year" caption="Year" visible="true" useComboBox="false"/>
+            <Column fieldName="Target" caption="Target" visible="true" useComboBox="false"/>
+          </AdvancedSearchColumns>
+          <ExportColumns>
+            <Column fieldName="TargetID" caption="TargetID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Target" caption="Target" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </ExportColumns>
+          <PrintColumns>
+            <Column fieldName="TargetID" caption="TargetID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Target" caption="Target" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </PrintColumns>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+      <Page type="table" tableName="dbo.PerformanceManagement_ProgramValues" fileName="dbo.PerformanceManagement_ProgramValues" caption="Dbo.PerformanceManagement ProgramValues" shortCaption="Dbo.PerformanceManagement ProgramValues" groupName="Default" addSeparator="false" horizontalFilterCondition="" openAdvancedSearchAtFirst="false" recordsPerPage="1000" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" contentEncoding="UTF-8" exportToExcelAvailable="false" exportToWordAvailable="false" exportToXmlAvailable="false" exportToCsvAvailable="false" exportToPdfAvailable="false" printerFriendlyAvailable="false" advancedSearchAvailable="false" filterRowAvailable="false" visualEffectsEnabled="false" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <Columns>
+          <ViewColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" totalFunction="0">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true" totalFunction="0">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true" totalFunction="0">
+              <ViewProperties type="text">
+                <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+              </ViewProperties>
+            </Column>
+          </ViewColumns>
+          <SingleRecordViewColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true">
+              <ViewProperties type="text">
+                <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+              </ViewProperties>
+            </Column>
+          </SingleRecordViewColumns>
+          <EditColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="false">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" canSetNull="true">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <EditProperties type="comboBox">
+                <MFUItems/>
+              </EditProperties>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="4" maxLength="4" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true">
+              <EditProperties type="dateTime" showsTime="true" dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </EditColumns>
+          <InsertColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="false" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" canSetNull="true" defaultInsertValue="">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <EditProperties type="comboBox">
+                <MFUItems/>
+              </EditProperties>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="4" maxLength="4" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true" defaultInsertValue="">
+              <EditProperties type="dateTime" showsTime="true" dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </InsertColumns>
+          <SimpleSearchColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true"/>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true"/>
+            <Column fieldName="Quarter" caption="Quarter" visible="true"/>
+            <Column fieldName="ValueType" caption="ValueType" visible="true"/>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true"/>
+            <Column fieldName="Editor" caption="Editor" visible="true"/>
+            <Column fieldName="Value" caption="Value" visible="true"/>
+          </SimpleSearchColumns>
+          <AdvancedSearchColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true" useComboBox="false"/>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" useComboBox="false">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" useComboBox="false"/>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" useComboBox="false"/>
+            <Column fieldName="ValueType" caption="ValueType" visible="true" useComboBox="false"/>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true" useComboBox="false"/>
+            <Column fieldName="Editor" caption="Editor" visible="true" useComboBox="false"/>
+            <Column fieldName="Value" caption="Value" visible="true" useComboBox="false"/>
+          </AdvancedSearchColumns>
+          <ExportColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true">
+              <ViewProperties type="text">
+                <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+              </ViewProperties>
+            </Column>
+          </ExportColumns>
+          <PrintColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true">
+              <ViewProperties type="text">
+                <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+              </ViewProperties>
+            </Column>
+          </PrintColumns>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+      <Page type="table" tableName="dbo.PerformanceManagement_ProgramValues_staging" fileName="dbo.PerformanceManagement_ProgramValues_staging" caption="Dbo.PerformanceManagement ProgramValues Staging" shortCaption="Dbo.PerformanceManagement ProgramValues Staging" groupName="Default" addSeparator="false" horizontalFilterCondition="" openAdvancedSearchAtFirst="false" recordsPerPage="1000" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" contentEncoding="UTF-8" exportToExcelAvailable="false" exportToWordAvailable="false" exportToXmlAvailable="false" exportToCsvAvailable="false" exportToPdfAvailable="false" printerFriendlyAvailable="false" advancedSearchAvailable="false" filterRowAvailable="false" visualEffectsEnabled="false" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <Columns>
+          <ViewColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" totalFunction="0">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true" totalFunction="0">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true" totalFunction="0">
+              <ViewProperties type="text">
+                <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+              </ViewProperties>
+            </Column>
+          </ViewColumns>
+          <SingleRecordViewColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true">
+              <ViewProperties type="text">
+                <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+              </ViewProperties>
+            </Column>
+          </SingleRecordViewColumns>
+          <EditColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="false">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" canSetNull="true">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <EditProperties type="comboBox">
+                <MFUItems/>
+              </EditProperties>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="4" maxLength="4" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true">
+              <EditProperties type="dateTime" showsTime="true" dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </EditColumns>
+          <InsertColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="false" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" canSetNull="true" defaultInsertValue="">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <EditProperties type="comboBox">
+                <MFUItems/>
+              </EditProperties>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="4" maxLength="4" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true" defaultInsertValue="">
+              <EditProperties type="dateTime" showsTime="true" dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="50" maxLength="50" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </InsertColumns>
+          <SimpleSearchColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true"/>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true"/>
+            <Column fieldName="Quarter" caption="Quarter" visible="true"/>
+            <Column fieldName="ValueType" caption="ValueType" visible="true"/>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true"/>
+            <Column fieldName="Editor" caption="Editor" visible="true"/>
+            <Column fieldName="Value" caption="Value" visible="true"/>
+          </SimpleSearchColumns>
+          <AdvancedSearchColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true" useComboBox="false"/>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true" useComboBox="false">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" useComboBox="false"/>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" useComboBox="false"/>
+            <Column fieldName="ValueType" caption="ValueType" visible="true" useComboBox="false"/>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true" useComboBox="false"/>
+            <Column fieldName="Editor" caption="Editor" visible="true" useComboBox="false"/>
+            <Column fieldName="Value" caption="Value" visible="true" useComboBox="false"/>
+          </AdvancedSearchColumns>
+          <ExportColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true">
+              <ViewProperties type="text">
+                <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+              </ViewProperties>
+            </Column>
+          </ExportColumns>
+          <PrintColumns>
+            <Column fieldName="ValueID" caption="ValueID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="MeasureID" caption="MeasureID" visible="true">
+              <Lookup tableName="dbo.PerformanceManagement_ProgramKPIs" linkFieldName="MeasureID" displayFieldName="MeasureName" lookupFilter="" useLookupOrdering="true" lookupOrdering="0"/>
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Quarter" caption="Quarter" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="ValueType" caption="ValueType" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="LastEdit" caption="LastEdit" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+            <Column fieldName="Editor" caption="Editor" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Value" caption="Value" visible="true">
+              <ViewProperties type="text">
+                <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+              </ViewProperties>
+            </Column>
+          </PrintColumns>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+      <Page type="table" tableName="dbo.PerformanceManagement_StartDates" fileName="dbo.PerformanceManagement_StartDates" caption="Dbo.PerformanceManagement StartDates" shortCaption="Dbo.PerformanceManagement StartDates" groupName="Default" addSeparator="false" horizontalFilterCondition="" openAdvancedSearchAtFirst="false" recordsPerPage="1000" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" contentEncoding="UTF-8" exportToExcelAvailable="false" exportToWordAvailable="false" exportToXmlAvailable="false" exportToCsvAvailable="false" exportToPdfAvailable="false" printerFriendlyAvailable="false" advancedSearchAvailable="false" filterRowAvailable="false" visualEffectsEnabled="false" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <Columns>
+          <ViewColumns>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="StartDate" caption="StartDate" visible="true" totalFunction="0">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+          </ViewColumns>
+          <SingleRecordViewColumns>
+            <Column fieldName="Quarter" caption="Quarter" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="StartDate" caption="StartDate" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+          </SingleRecordViewColumns>
+          <EditColumns>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="StartDate" caption="StartDate" visible="true" canSetNull="true">
+              <EditProperties type="dateTime" showsTime="true" dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0"/>
+            </Column>
+          </EditColumns>
+          <InsertColumns>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="StartDate" caption="StartDate" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="dateTime" showsTime="true" dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0"/>
+            </Column>
+          </InsertColumns>
+          <SimpleSearchColumns>
+            <Column fieldName="Quarter" caption="Quarter" visible="true"/>
+            <Column fieldName="Year" caption="Year" visible="true"/>
+            <Column fieldName="StartDate" caption="StartDate" visible="true"/>
+          </SimpleSearchColumns>
+          <AdvancedSearchColumns>
+            <Column fieldName="Quarter" caption="Quarter" visible="true" useComboBox="false"/>
+            <Column fieldName="Year" caption="Year" visible="true" useComboBox="false"/>
+            <Column fieldName="StartDate" caption="StartDate" visible="true" useComboBox="false"/>
+          </AdvancedSearchColumns>
+          <ExportColumns>
+            <Column fieldName="Quarter" caption="Quarter" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="StartDate" caption="StartDate" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+          </ExportColumns>
+          <PrintColumns>
+            <Column fieldName="Quarter" caption="Quarter" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="StartDate" caption="StartDate" visible="true">
+              <ViewProperties type="dateTime" dateTimeFormat="Y-m-d H:i:s"/>
+            </Column>
+          </PrintColumns>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+      <Page type="table" tableName="dbo.PerformanceManagement_Users" fileName="dbo.PerformanceManagement_Users" caption="Dbo.PerformanceManagement Users" shortCaption="Dbo.PerformanceManagement Users" groupName="Default" addSeparator="false" horizontalFilterCondition="" openAdvancedSearchAtFirst="false" recordsPerPage="1000" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" contentEncoding="UTF-8" exportToExcelAvailable="false" exportToWordAvailable="false" exportToXmlAvailable="false" exportToCsvAvailable="false" exportToPdfAvailable="false" printerFriendlyAvailable="false" advancedSearchAvailable="false" filterRowAvailable="false" visualEffectsEnabled="false" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <Columns>
+          <ViewColumns>
+            <Column fieldName="user_id" caption="User Id" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="user_name" caption="User Name" visible="true" totalFunction="0">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="user_password" caption="User Password" visible="true" totalFunction="0">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="department" caption="Department" visible="true" totalFunction="0">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="department_head" caption="Department Head" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+          </ViewColumns>
+          <SingleRecordViewColumns>
+            <Column fieldName="user_id" caption="User Id" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="user_name" caption="User Name" visible="true">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="user_password" caption="User Password" visible="true">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="department" caption="Department" visible="true">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="department_head" caption="Department Head" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </SingleRecordViewColumns>
+          <EditColumns>
+            <Column fieldName="user_id" caption="User Id" visible="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="user_name" caption="User Name" visible="true" canSetNull="true">
+              <EditProperties type="textArea" columnCount="50" rowCount="8" placeholder=""/>
+            </Column>
+            <Column fieldName="user_password" caption="User Password" visible="true" canSetNull="true">
+              <EditProperties type="textArea" columnCount="50" rowCount="8" placeholder=""/>
+            </Column>
+            <Column fieldName="department" caption="Department" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="department_head" caption="Department Head" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </EditColumns>
+          <InsertColumns>
+            <Column fieldName="user_id" caption="User Id" visible="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="user_name" caption="User Name" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textArea" columnCount="50" rowCount="8" placeholder=""/>
+            </Column>
+            <Column fieldName="user_password" caption="User Password" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textArea" columnCount="50" rowCount="8" placeholder=""/>
+            </Column>
+            <Column fieldName="department" caption="Department" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="department_head" caption="Department Head" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </InsertColumns>
+          <SimpleSearchColumns>
+            <Column fieldName="user_id" caption="User Id" visible="true"/>
+            <Column fieldName="user_name" caption="User Name" visible="true"/>
+            <Column fieldName="user_password" caption="User Password" visible="true"/>
+            <Column fieldName="department" caption="Department" visible="true"/>
+            <Column fieldName="department_head" caption="Department Head" visible="true"/>
+          </SimpleSearchColumns>
+          <AdvancedSearchColumns>
+            <Column fieldName="user_id" caption="User Id" visible="true" useComboBox="false"/>
+            <Column fieldName="user_name" caption="User Name" visible="true" useComboBox="false"/>
+            <Column fieldName="user_password" caption="User Password" visible="true" useComboBox="false"/>
+            <Column fieldName="department" caption="Department" visible="true" useComboBox="false"/>
+            <Column fieldName="department_head" caption="Department Head" visible="true" useComboBox="false"/>
+          </AdvancedSearchColumns>
+          <ExportColumns>
+            <Column fieldName="user_id" caption="User Id" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="user_name" caption="User Name" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="user_password" caption="User Password" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="department" caption="Department" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="department_head" caption="Department Head" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </ExportColumns>
+          <PrintColumns>
+            <Column fieldName="user_id" caption="User Id" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="user_name" caption="User Name" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="user_password" caption="User Password" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="department" caption="Department" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="department_head" caption="Department Head" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </PrintColumns>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+      <Page type="table" tableName="dbo.PerformanceManagement_Departments" fileName="dbo.PerformanceManagement_Departments" caption="Dbo.PerformanceManagement Departments" shortCaption="Dbo.PerformanceManagement Departments" groupName="Default" addSeparator="false" horizontalFilterCondition="" openAdvancedSearchAtFirst="false" recordsPerPage="1000" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" contentEncoding="UTF-8" exportToExcelAvailable="false" exportToWordAvailable="false" exportToXmlAvailable="false" exportToCsvAvailable="false" exportToPdfAvailable="false" printerFriendlyAvailable="false" advancedSearchAvailable="false" filterRowAvailable="false" visualEffectsEnabled="false" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <Columns>
+          <ViewColumns>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true" totalFunction="0">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+          </ViewColumns>
+          <SingleRecordViewColumns>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+          </SingleRecordViewColumns>
+          <EditColumns>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </EditColumns>
+          <InsertColumns>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+          </InsertColumns>
+          <SimpleSearchColumns>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true"/>
+            <Column fieldName="Department" caption="Department" visible="true"/>
+          </SimpleSearchColumns>
+          <AdvancedSearchColumns>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" useComboBox="false"/>
+            <Column fieldName="Department" caption="Department" visible="true" useComboBox="false"/>
+          </AdvancedSearchColumns>
+          <ExportColumns>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </ExportColumns>
+          <PrintColumns>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Department" caption="Department" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </PrintColumns>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+      <Page type="table" tableName="dbo.PerformanceManagement_KeyInitiatives" fileName="dbo.PerformanceManagement_KeyInitiatives" caption="Dbo.PerformanceManagement KeyInitiatives" shortCaption="Dbo.PerformanceManagement KeyInitiatives" groupName="Default" addSeparator="false" horizontalFilterCondition="" openAdvancedSearchAtFirst="false" recordsPerPage="1000" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" contentEncoding="UTF-8" exportToExcelAvailable="false" exportToWordAvailable="false" exportToXmlAvailable="false" exportToCsvAvailable="false" exportToPdfAvailable="false" printerFriendlyAvailable="false" advancedSearchAvailable="false" filterRowAvailable="false" visualEffectsEnabled="false" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <Columns>
+          <ViewColumns>
+            <Column fieldName="InititiativeID" caption="InititiativeID" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Initiative" caption="Initiative" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" totalFunction="0">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Budget" caption="Budget" visible="true" totalFunction="0">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="Impact" caption="Impact" visible="true" totalFunction="0">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+          </ViewColumns>
+          <SingleRecordViewColumns>
+            <Column fieldName="InititiativeID" caption="InititiativeID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Initiative" caption="Initiative" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Budget" caption="Budget" visible="true">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+            <Column fieldName="Impact" caption="Impact" visible="true">
+              <ViewProperties type="text" maxLength="75"/>
+            </Column>
+          </SingleRecordViewColumns>
+          <EditColumns>
+            <Column fieldName="InititiativeID" caption="InititiativeID" visible="false">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Initiative" caption="Initiative" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="4" maxLength="4" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Budget" caption="Budget" visible="true" canSetNull="true">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Impact" caption="Impact" visible="true" canSetNull="true">
+              <EditProperties type="textArea" columnCount="50" rowCount="8" placeholder=""/>
+            </Column>
+          </EditColumns>
+          <InsertColumns>
+            <Column fieldName="InititiativeID" caption="InititiativeID" visible="false" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Initiative" caption="Initiative" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="0" maxLength="0" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="4" maxLength="4" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Budget" caption="Budget" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textBox" size="100" maxLength="100" placeholder="" prefix="" suffix=""/>
+            </Column>
+            <Column fieldName="Impact" caption="Impact" visible="true" canSetNull="true" defaultInsertValue="">
+              <EditProperties type="textArea" columnCount="50" rowCount="8" placeholder=""/>
+            </Column>
+          </InsertColumns>
+          <SimpleSearchColumns>
+            <Column fieldName="InititiativeID" caption="InititiativeID" visible="true"/>
+            <Column fieldName="Initiative" caption="Initiative" visible="true"/>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true"/>
+            <Column fieldName="Year" caption="Year" visible="true"/>
+            <Column fieldName="Budget" caption="Budget" visible="true"/>
+            <Column fieldName="Impact" caption="Impact" visible="true"/>
+          </SimpleSearchColumns>
+          <AdvancedSearchColumns>
+            <Column fieldName="InititiativeID" caption="InititiativeID" visible="true" useComboBox="false"/>
+            <Column fieldName="Initiative" caption="Initiative" visible="true" useComboBox="false"/>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true" useComboBox="false"/>
+            <Column fieldName="Year" caption="Year" visible="true" useComboBox="false"/>
+            <Column fieldName="Budget" caption="Budget" visible="true" useComboBox="false"/>
+            <Column fieldName="Impact" caption="Impact" visible="true" useComboBox="false"/>
+          </AdvancedSearchColumns>
+          <ExportColumns>
+            <Column fieldName="InititiativeID" caption="InititiativeID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Initiative" caption="Initiative" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Budget" caption="Budget" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Impact" caption="Impact" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </ExportColumns>
+          <PrintColumns>
+            <Column fieldName="InititiativeID" caption="InititiativeID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Initiative" caption="Initiative" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="DepartmentID" caption="DepartmentID" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Year" caption="Year" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Budget" caption="Budget" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+            <Column fieldName="Impact" caption="Impact" visible="true">
+              <ViewProperties type="text"/>
+            </Column>
+          </PrintColumns>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+    </Pages>
+    <UserAuthorization/>
+    <UserGrants/>
+    <Header/>
+    <Footer/>
+    <Groups>
+      <Group>
+Default      </Group>
+    </Groups>
+  </Presentation>
+  <UserCSS/>
+  <UserJS/>
+  <ExcludedPaths/>
+  <DefaultPageProperties recordsPerPage="1000" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" contentEncoding="UTF-8" exportToExcelAvailable="false" exportToWordAvailable="false" exportToXmlAvailable="false" exportToCsvAvailable="false" exportToPdfAvailable="false" printerFriendlyAvailable="false" advancedSearchAvailable="false" filterRowAvailable="false" visualEffectsEnabled="false" showKeyColumnsImagesInGridHeader="false"/>
+  <DefaultDataFormats numberAfterDecimal="4" DecimalSeparator="." ThousandSeparator="," DateTimeFormat="Y-m-d H:i:s" DateFormat="Y-m-d" firstDayOfWeek="0"/>
+</Project>
